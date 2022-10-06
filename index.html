@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Red Panda</title>
+    <style >
+
+      
+    
+
+/*
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 36px;
+  text-align: center;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color:black;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}*/
+@media screen and (max-width:800px){
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url(https://cdn.discordapp.com/attachments/688106889321644122/1025780369259241562/NO_RED_PANDA.png);
+  background-repeat: no-repeat;  
+  background-attachment: fixed; 
+  background-size: 30% 30%; 
+    background-position: top;
+  background-color:rgb(43,157,245);
+  margin:0;
+  padding:0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  font-weight: 300;
+}
+}
+@media screen and (min-width:800px){
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url(https://cdn.discordapp.com/attachments/688106889321644122/1025780369259241562/NO_RED_PANDA.png);
+  background-repeat: no-repeat;  
+  background-attachment: fixed; 
+  background-size: 60% 60%; 
+    background-position: top;
+  background-color:rgb(43,157,245);
+  margin:0;
+  padding:0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  font-weight: 300;
+}
+}
+.all {
+  margin-top: 10%;
+  display: flex;
+  perspective: 10px;
+  transform: perspective(300px) rotateX(20deg);
+  will-change: perspective;
+  perspective-origin: center center;
+  transition: all 1.3s ease-out;
+  justify-content: center;
+  transform-style: preserve-3d;
+}
+.all:hover {
+  perspective: 1000px;
+  transition: all 1.3s ease-in;
+  transform: perspective(10000px) rotateX(0deg);
+ 
+
+}
+.all:hover body{
+    background-color: #58d;}
+
+  .all:hover .text {
+    opacity: 1;
+  }
+  .all:hover > a{
+    opacity: 1;
+    transition-delay: 0s;
+  }
+  .all:hover .explainer {
+    opacity: 0;
+  }
+
+
+.left, .center, .right, .lefter, .righter {
+  width: 200px;
+  height: 150px;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px 5px rgba(100, 100, 255, .4);
+  opacity: 0;
+  transition: all .3s ease;
+  transition-delay: 1s;
+  position: relative;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #58d;
+  cursor: pointer;
+  background-blend-mode: color-burn;}
+  
+  .left:hover, .center:hover, .right:hover, .lefter:hover, .righter:hover {
+    box-shadow: 0 0 30px 10px rgba(100, 100, 255, .6);
+  background-color: #ccf;
+  }
+
+.text {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all .3s ease;
+  bottom: 0;
+  left: 5px;
+  position: absolute;
+  will-change: transform;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(100, 100, 255, .6)
+}
+.lefter {
+  transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
+  background-image: url(magic-eden-logo-freelogovectors.net.svg);
+}
+.left {
+  transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
+  background-image: url(diamond\ vaults.jfif);
+}
+.center {
+  opacity: 1;
+  background-image: url(twitter.png);
+}
+.right {
+  transform: translateX(30px) translateZ(-25px) rotateY(5deg);
+  background-image: url(instragram\ logo.jfif);
+}
+.righter {
+  transform: translateX(60px) translateZ(-50px) rotateY(10deg);
+  background-image: url(discord.png);
+}
+.explainer {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #fff;
+  transition: all .6s ease;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(100, 100, 255, 0.1);
+  background-image: radial-gradient(circle at center top, rgb(226, 219, 219,0.1), rgba(100, 100, 255, 0.1));
+  border-radius: 10px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, .8);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+    </style>
+</head>
+<body>
+
+<!--
+          <div class="waviy">
+            <span style="--i:1">N</span>
+            <span style="--i:2">O</span> &nbsp
+            <span style="--i:3">R</span>
+            <span style="--i:4">e</span>
+            <span style="--i:5">d</span> &nbsp
+            <span style="--i:6">p</span>
+            <span style="--i:7">a</span>
+            <span style="--i:8">n</span>
+            <span style="--i:9">d</span>
+            <span style="--i:10">a</span>
+         
+           </div>-->
+           <div class="all">
+        <a href="https://magiceden.io/marketplace/no_red_panda?activeTab=items" target="_blank"class="lefter">
+              <div class="text">MAGIC EDEN</div>
+            </a>
+            <a href="https://stake.diamondvaults.io/vault/NoRedPanda" target="_blank" class="left">
+              <div class="text">STAKING</div>
+            </a>
+            <a href="https://twitter.com/NoRedPanda" class="center">
+              <div class="explainer"><span>Contact</span></div>
+              <div class="text">TWITTER</div>
+            </a>
+            <a href=""  target="_blank" class="right">
+              <div class="text">INSTAGRAM</div>
+            </a>
+            <a href="https://discord.gg/95HhkcFV9D " target="_blank" class="righter">
+              <div class="text">DISCORD</div>
+            </a>
+            </div>
+            
+      </body>
+</html>
